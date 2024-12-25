@@ -1,0 +1,183 @@
+body{
+    text-align: center;
+}
+.container{
+    
+   padding: 30px;
+   min-height: 350px;
+   width: 320px;
+   background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+   border-radius: 15px;
+}
+.height,.weight{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+   
+    margin-top: 30px;
+   
+}
+input{
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    background-color: aliceblue;
+    color: black;
+    font-size: 18px;
+    text-align: center;
+   
+    
+}
+p{
+    color: red;
+    font-size:19px;
+    
+
+}
+input:focus{
+    
+    outline:3px solid #2a2222;
+}
+button{
+    height: 50px;
+    width: 100px;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    padding: 10px;
+   
+    margin-top: 40px;
+}
+
+.reset{
+    background-color:red;
+}
+.submit{
+    background-color: rgb(6, 117, 6);
+}
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    justify-content: space-around;
+}
+.submit:hover{
+    background-color: rgb(64, 135, 64);
+}
+.reset:hover{
+    background-color: rgb(170, 58, 58);
+}
+
+.result{
+    background-color: green;
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 30px;
+    
+}
+
+.red{
+    background-color: rgb(224, 21, 21);
+}
+h1{
+   color: rgb(45, 168, 41);
+}
+
+@media(max-width:380px) {
+
+.container{
+    
+   padding: 20px;
+   min-height: 150px;
+   width: 220px;
+   background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+   border-radius: 15px;
+}
+.height,.weight{
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+   
+    margin-top: 20px;
+   
+}
+input{
+    height: 20px;
+    border: none;
+    border-radius: 5px;
+    width: 150px;
+    background-color: aliceblue;
+    color: black;
+    font-size: 15px;
+    text-align: center;
+   
+    
+}
+input::placeholder{
+    font-size: 14px;
+}
+p{
+    color: red;
+    font-size:15px;
+    
+
+}
+input:focus{
+    
+    outline:3px solid #2a2222;
+}
+button{
+    height: 25px;
+    width: 60px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 5px;
+   
+    margin-top: 40px;
+}
+
+.reset{
+    background-color:red;
+}
+.submit{
+    background-color: rgb(6, 117, 6);
+}
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    justify-content: space-around;
+}
+.submit:hover{
+    background-color: rgb(64, 135, 64);
+}
+.reset:hover{
+    background-color: rgb(170, 58, 58);
+}
+
+.result{
+    background-color: green;
+    padding: 5px;
+    border-radius: 10px;
+    margin-top: 20px;
+    font-size: 15px;
+    
+}
+
+.red{
+    background-color: rgb(224, 21, 21);
+}
+h1{
+   color: rgb(45, 168, 41);
+   margin-top: 0%;
+   font-size: 19px;
+}
+h2{
+    font-size: 17px;
+    color: rgb(10, 72, 123);
+}
+h3{
+    font-size: 15px;
+}
+}
